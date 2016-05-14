@@ -15,5 +15,8 @@
     "vendor/assets/components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "AngularJS": "angular-latest#^1.5.5"
+  }
 }

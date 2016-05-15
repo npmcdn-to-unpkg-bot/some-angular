@@ -12,6 +12,12 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require AngularJS/src/Angular
+//= require angular/angular
 //= require turbolinks
 //= require_tree .
+
+var myApp = angular.module("myApp", []);
+
+myApp.controller("HelloWorldCtrl", function($scope) {
+  $scope.user = "UserName";
+});
